@@ -18,7 +18,6 @@ app.use(express.json());
 //CRUD: Starships
 app.use('/api/starship', require('./routes/starships'));
 
-
 //Escuchar peticiones
 app.listen(process.env.PORT,()=>{
     console.log(`Corriendo en puerto ${process.env.PORT}`)
